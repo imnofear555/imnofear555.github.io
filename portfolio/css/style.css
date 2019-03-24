@@ -1,0 +1,17 @@
+body {
+	margin:0 auto;
+}
+.menu {
+	display: flex;
+	padding: 0;
+}
+.menu li {
+	display: flex;
+}
+
+.menu li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	padding-right: 1.8rem;
+}
