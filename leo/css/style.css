@@ -1,0 +1,302 @@
+body {
+	width: 1290 px;
+	font-family: univers-light-normal;
+	font-size: 14px;
+	color: #818181;
+	padding: 0; 			/* Обнуляем отступы*/
+	margin: 0;	
+	background: url(../img/body.png) no-repeat top;
+}
+div {
+	box-sizing: border-box;
+}
+.clearfix:after {			/* Вписываем эти знаечения когда лого и меню в разных сторонах */
+	content: '';			/*Что бы между ними не становились другие div*/
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.container {
+	width: 1025px; 			/*Указали ширину для всех div class="container" */
+	margin: 0 auto;
+}
+.logo {
+	margin-left: 94px;
+	float: left;
+}
+.menu {
+	display: block;
+	padding: 0;
+	margin-right: 75px;
+	margin-left: 0;
+	margin-top: 45px;
+	margin-bottom: 0;
+}
+.menu li{
+	display: block;
+	float: right;
+	font-family: SegoeWPN;
+	font-size: 23px;
+	color: #ffffff;
+	padding-left: 30px;
+}
+.menu a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.banner {
+	float: left;
+	margin: 75px 0px 25px 120px;
+}
+.op1 {
+	display: block;
+}
+.op1 h1{
+	 margin: 125px 190px 0px 0px;
+	 padding: 0;
+	 float: right;
+	 font-size: 64.6px;
+	 color: #ffffff;
+	 font-family: Segoe WP N;
+}
+.op1 h2 {
+	padding: 0;
+	float: right;
+	margin: 0px 170px 0px 0px;
+	font-size: 44.6px;
+	font-family: Segoe WP N;
+	color: #ffffff;
+}
+.op1 a {
+	text-decoration: none;
+	color: #ffffff;
+	background: #2a6f4f;
+	font-size: 25px;
+	width: 140px;
+	float: right;
+	margin: 40px 370px 119px 0;
+	padding: 6px 0px;
+	text-align: center;
+	border-radius: 2px;
+}
+.icon {
+	margin: 25px 0px 0px 50px;
+	display: block;
+}
+#i1 {
+	float: left;
+	padding: 0px 125px 0px 0px;
+}
+#i2  {
+	padding: 0px 0px 0px 0px;
+}
+#h3 {
+	margin: 4px 120px 0px 5px;
+	float: left;
+	text-align: center;
+	font-size: 27px;
+	color: #676666;
+}
+#h4 {
+	float: left;
+	margin: 4px 0px 0px 10px;
+	text-align: center;
+	font-size: 27px;
+	color: #676666;
+}
+.imag {
+	margin: 123px 154px 0px 155px;
+}
+.txt {
+	margin: 0px 70px 0 50px;
+}
+.txt h1 {
+	font-family: Segoe WP N;
+	color: #4f4f4f;
+	font-size: 38px;
+	margin: 0;
+}
+.txt p {
+	font-family: Myriad Pro;
+	color: #818181;
+	line-height: 24px;
+	margin: 20px 0px 20px 0px;
+}
+.scr {
+	float: left;
+	display: block;
+	margin: 60px 0px 80px 0px;
+}
+.sps {
+	float: left;
+	margin: 90px 0px 80px 30px;
+}
+.sps h1 {
+	margin: 0px 0px 23px 0px;
+	font-family: Segoe WP N;
+	font-size: 32px;
+	color: #4f4f4f;
+}
+.sps ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 30px;
+	float: left;
+}
+.sps li {
+	font-family: Myriad Pro;
+	font-size: 16px;
+	line-height: 38px;
+	color: #8a8888;
+	list-style: url(../img/sps.png);
+}
+.f1 {
+	float:left;
+	width: 470px;
+	height: 108px;
+	background: #e67624;
+	border-radius: 8px;
+	margin: 0px 0px 30px 0px;
+}
+.f1 h1 {
+	margin: 0;
+	padding: 15px 0px 0px 20px;
+	font-family: Segoe WP N;
+	font-size: 28px;
+	color: #ffffff;
+}
+#name {
+	padding: 0;
+	margin: 15px 0px 0px 20px;
+	width: 155px;
+	height: 25px;
+	font-family: SegoeWPN;
+	font-size: 16px;
+	border: 0;
+	border-radius: 20px 30px 0px 20px;
+	color: #4f4f4f;
+}
+#pass {
+	padding: 0;
+	margin: 15px 0px 0px 10px;
+	width: 155px;
+	height: 25px;
+	font-family: SegoeWPN;
+	font-size: 16px;
+	border: 0;
+	border-radius: 20px 20px 20px 20px;
+	color: #4f4f4f;	
+}
+#butt {
+	margin: 15px 0px 0px 10px;
+	padding: 0;
+	width: 95px;
+	height: 25px;
+	font-family: SegoeWPN;
+	font-size: 16px;
+	color: #ffffff;
+	background: #444444;
+	border: 0;
+	border-radius: 30px 20px 20px 0px;
+}
+.f2 {
+	float:right;
+	width: 470px;
+	height: 108px;
+	background: #01d4f3;
+	border-radius: 8px;
+	margin: 0px 0px 30px 0px;
+}
+.f2 h1 {
+	margin: 0;
+	padding: 15px 0px 0px 20px;
+	font-family: Segoe WP N;
+	font-size: 28px;
+	color: #ffffff;
+}
+#mail {
+	padding: 0;
+	margin: 15px 0px 0px 20px;
+	width: 265px;
+	height: 25px;
+	border: 0;
+	font-family: SegoeWPN;
+	font-size: 16px;
+	color: #4f4f4f;
+	border-radius: 20px 0px 20px 0px;
+}
+#butt2 {
+	padding: 0;
+	margin-left: 30px;
+	border: 0;
+	width: 115px;
+	height: 25px;
+	background: #f16a6a;
+	font-family: SegoeWPN;
+	font-size: 16px;
+	color: #ffffff;
+	border-radius: 0px 20px 0px 20px;
+}
+footer {
+	width: 1280px;
+	margin: 0 auto;
+	background: url(../img/footerbc.jpg);
+}
+#zg1 {
+	margin: 40px 0px 0px 0px;
+	font-family: SegoeWP;
+	font-size: 22px;
+	color: #ffffff;
+}
+.list1 {
+	float: left;
+	width: 185px;
+	margin-left: 35px;
+	font-family: SegoeWP;
+	font-size: 13px;
+	color: #eaeaea;
+	line-height: 22px;
+}
+.ul1 {
+	padding: 0;
+}
+.ul1 a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.ul1 li {
+	display: block;
+	text-decoration: none;
+}
+.list2 {
+	float: left;
+	width: 190px;
+	font-family: SegoeWP;
+	font-size: 13px;
+	color: #eaeaea;
+	line-height: 22px;
+}
+
+.list3 {
+	float: left;
+	width: 325px;
+	font-family: SegoeWP;
+	font-size: 13px;
+	color: #eaeaea;
+	line-height: 22px;
+}
+#zg2 {
+	font-family: SegoeWP;
+	font-size: 13px;
+	font-weight: bold;
+	color: #eaeaea;
+}
+.fotl {
+	width: 260px;
+	float: right;
+	margin: 140px 0px 0px 0px;
+}
+.fotl p{
+	float: right;
+	padding: 0;
+	margin: 0px 0px 5px 0px;
+}
