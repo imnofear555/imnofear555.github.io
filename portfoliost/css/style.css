@@ -1,0 +1,280 @@
+body {
+	font-family: Montserrat,/* Шрифт в тэге Боди*/
+	padding: 0; 			/* Обнуляем отступы*/
+	margin: 0;				/* Обнуляем отступы*/
+}
+.clearfix:after {			/* Вписываем эти знаечения когда лого и меню в разных сторонах */
+	content: '';			/*Что бы между ними не становились другие div*/
+	display: table;
+	width: 100%;
+	clear: both;
+}
+div {
+	box-sizing: border-box;
+}
+header {
+	background: url(../img/header.png) no-repeat center top;
+	padding-bottom: 383px; /* вписываем расстояние до конца блока от последнего элемента*/
+}
+.container {
+	width: 1000px; 			/*Указали ширину для всех div class="container" */
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 0px;
+	float: left;			/*Слева отступ сверху=0*/
+}
+nav {
+	float: right;			/* Навигация справа*/
+}
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu ul{
+	margin-right: 80px;
+}
+.menu li {
+	float:left;
+	display: block;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+.menu li a {
+	color: #3a586c;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px
+}
+.menu a:hover {
+	border-bottom: 1.5px #fa5c65 solid;
+}
+.titles_first {
+	padding-top: 220px;
+	font-family: Montserrat, sans-serif;
+	font-weight: bold;
+	color: #3a586c;
+}
+p.h1 {
+	font-size: 34px;
+	display: block;
+	text-transform: uppercase;
+	line-height: 1.5em;
+
+}
+p.h2 {
+	font-size: 18px;
+	margin-top: 30px;
+}
+.button {
+	float: left;
+	background: #fa5c65;
+	color: #ffffff;
+	border-radius: 10px;
+	display: block;
+	width: 150px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 30px;
+}
+.stat h1{										/*Свойства для h1 в склассе stas*/
+	font-family: Montserrat, sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #465065;
+	margin-bottom: 30px;
+}
+.stat {											/*Свойства для склассf stas*/
+	display: block;						/*Элемент показывается как блочный*/
+	margin-top: 40px;					/*отступ от верхнего контейнера 80пх*/		
+}
+
+.p1 {
+	float: left;						/*Указали что весь класс в левой*/
+}
+.p1 a:hover {
+	border-bottom: 1.5px #fa5c65 solid;
+}
+.p1 p {
+	font-family: Myriad Pro;
+	line-height: 22px;
+	font-size: 15px;
+	color: #9aa0ab;
+}
+}
+.p1:nth-child(2) {
+	width: 250px;
+	margin-left: 50px;
+}
+.p1:last-child {
+	width: 230px;
+	margin-left: 70px;
+}
+.p1 a {
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fa5c65;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.portfolio{
+	display: block;
+	margin-top: 100px;
+}
+.opis {
+	width: 345px;
+	margin-left: 640px;
+}
+.opis h1 {
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 46px;
+	color: #314a5b;
+	margin: 0;
+}
+.opis h3 {
+	font-family: Myriad Pro;
+	font-size: 16px;
+	line-height: 20px;
+	color: #314a5b;
+}
+.opis p {
+	font-family: Myriad Pro;
+	font-size: 15px;
+	line-height: 22px;
+	color: #9aa0ab;
+	margin-bottom: 40px;
+}
+.opis a {
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fa5c65;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.opis a:hover {
+	border-bottom: 1.5px #fa5c65 solid;
+}
+.ourteam h1 {
+	font-family: Montserrat;
+	font-size: 32px;
+	font-weight: bold;
+	color: #314a5b;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+.ourteam h3 {
+	font-family: Myriad Pro;
+	font-size: 16px;
+	color: #9aa0ab;
+	line-height: 20px;
+}
+.team {
+	margin-top: 0px;
+}
+.team h1 {
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 22px;
+	color: #314a5b;
+	text-transform: uppercase;
+	margin-top: 20px;
+	line-height: 10px
+}
+.team h3 {
+	font-family: Myriad Pro;
+	font-size: 14px;
+	line-height: 20px;
+	color: #fa5c65;
+}
+.team p {
+	font-family: Myriad Pro; 
+	font-size: 14px;
+	color: #9aa0ab;
+	line-height: 20px;
+}
+.t {
+	float: left;
+	margin-top: 20px;
+}
+.t:first-child {
+	width: 300px;
+	margin-left: 0px;
+}
+.t:nth-child(2) {
+	width: 300px;
+	margin-left: 40px;
+}
+.t:last-child {
+	width: 285px;
+	margin-left: 50px;
+}
+.t a {
+	float: right;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fa5c65;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-bottom: 56px;
+}
+.t a:hover {
+	border-bottom: 1.5px #fa5c65 solid;
+}
+.ico {
+	border-top-width: 2px; /* Толщина линии  */
+    border-top-style: solid; /* Стиль линии  */
+    border-top-color: #e6eaed; /* Цвет линии  */
+}
+.foot {
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.foot:nth-child(2) {
+	margin-left: 25px;
+
+}
+.foot:nth-child(3) {
+	margin-left: 25px;
+} 
+.foot:nth-child(4) {
+	margin-left: 25px;
+}
+.foot img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale (0%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.foot img:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.foot1 {
+	float: right;
+	font-family: Myriad Pro;
+	font-size: 14px;
+	margin-top: 28px;
+	color: #b9c0c6;
+}
+.foot1 a {
+	text-decoration: none;
+	color: #7e7e7e;
+}
+.foot1 a:hover {
+	color: #fa5c65;
+	font-size: 14px;
+}
