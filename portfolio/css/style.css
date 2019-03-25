@@ -1,9 +1,19 @@
 body {
 	margin:0 auto;
+	font-family: Montserrat, sans-serif;
+}
+.mainhead {
+background: url(../img/header.jpg) top no-repeat;
+}
+.logo img {
+display: inline-block;
+height: auto;
+max-width: 100%;
 }
 .menu {
 	display: flex;
 	padding: 0;
+	margin-top: 20px;
 }
 .menu li {
 	display: flex;
@@ -14,4 +24,31 @@ body {
 	text-transform: uppercase;
 	font-size: 0.9rem;
 	padding-right: 1.8rem;
+}
+.main-content {
+	margin-top: 310px;
+}
+.main-h1 h1 {
+	font-size: 48px;
+	color: #314a5b;
+	text-transform: uppercase;
+	margin: 0px 0px 20px 0px;
+}
+.main-h1 h3 {
+	font-size: 18px;
+	color: #314a5b;
+	margin: 0;
+}
+.button {
+	margin-top: 70px;
+	margin-bottom: 410px;
+}
+.button a {
+	text-decoration: none;
+	font-size: 15px;
+	color: #ffffff;
+	text-transform: uppercase;
+	background: #fa5c65;
+	padding: 15px 35px;
+	border-radius: 10px;
 }
