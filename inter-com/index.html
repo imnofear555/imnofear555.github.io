@@ -989,6 +989,27 @@
 		</div>
 	</div>
 </footer>
+									<!--Контактная форма заявка на подключения-->
+<div class="container">	
+ <div class="row">
+  <div class="col-xl-6">						
+	<form action="php/zayavka-podkl.php" class="zayavka-podkl">
+	<input type="text"  name="name" placeholder="Введите ваше имя" required />
+	<input type="email" name="email" placeholder="Введите электронный адрес" required />
+	  <span class="form_hint">Правильный формат "name@something.com"</span>
+	<input type="tel" name="tel" placeholder="Введите номер телефона" required />
+	  <span class="form_hint">Правильный формат "0979726500"</span>
+	<input type="text" name="addres" placeholder="Введите Ваш Адреc" required/> 
+	<label for="message">Текст сообщения:</label>
+	      <textarea name="message" cols="25" rows="6"></textarea>
+	<input name="bezspama" type="text" style="display:none" value="" />     
+	<button class="submit" type="submit">Отправить Заявку</button>
+	</form>
+  </div>	
+ </div>	
+</div>	
+
+								<!--Контактная форма заявка на подключения Конец--
 								<!--Script-->
 <script
   src="https://code.jquery.com/jquery-1.12.4.min.js"
