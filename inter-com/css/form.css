@@ -1,0 +1,26 @@
+.form-podkl1 {
+  background: #32485a;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
+.form-podkl1 input {
+  background: rgba(255, 255, 255, 0);
+  width: 90%;
+  display: inline-block;
+}
+.form-podkl1 button {
+  width: 90%;
+  margin-bottom: 10px;
+}
+.form-1 {
+  padding: 0 ;
+}
+.close {
+  text-align: right;
+  margin-right: 10px;
+  text-shadow: none;
+}
+.close:hover {
+  color: red;
+}
