@@ -1,4 +1,5 @@
 @import 'custom_button.css';
+@import 'form.css';
 body {
 	margin: 0;
 	padding: 0;
@@ -178,6 +179,10 @@ margin: 0;
 }
 /*/News*/
 /* ТАрифы*/
+.header-tarif h1 {
+	text-align: center;
+	margin-top: 10px;
+}
 .button-tarif {
 	margin-bottom: 10px;
 }
@@ -189,6 +194,34 @@ margin: 0;
 }
 .btn-region {
 	width: 100%;
+}
+.tarif {
+	background: url(../img/map-pokritie.png);
+	height: 650px;
+}
+.card {
+	background: rgba(255, 255, 255, 0.7);
+	
+	border: none;
+}
+.collapse:nth-child(1) {
+	border: 1px solid #28a745;
+	border-radius: 10px;
+}
+.collapse:nth-child(2) {
+	border: 1px solid #ffc107;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+.collapse:nth-child(3) {
+	border: 1px solid #17a2b8;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+.collapse:nth-child(4) {
+	border: 1px solid #6c757d;
+	border-radius: 10px;
+	margin-top: 5px;
 }
 /* /ТАрифы*/
 
@@ -614,17 +647,122 @@ body{background-color:#eee;}
 	color: #FFF;
 	text-decoration:none;
 }
-
+.bnt-zayav {
+	width: 90%;
+	border: 1px solid #2ecc71;
+	padding: 12px 30px;
+	border-radius: 25px;
+	text-transform: 
+}
+.bnt-zayav:hover  {
+	background: #2ecc71;
+	opacity: 0,7;
+}
 /*Таблица Цен*/
+
+/* Секция Контакты*/
+.cont {
+	background: #fff;
+}
+.cont-sect2 {
+	margin-top: 5px;
+}
+.map h1 {
+	margin-top: 20px;
+	text-align: center;
+}
+.form-sv {
+background: #32485a;
+height: 370px;
+}
+.form-content {
+	padding-top: 15px;
+}
+.form-content h5 {
+	text-align: center;
+	color: #ffffff;
+}
+.input-form, .btn-form {
+	display: block;
+	text-align: center;
+}
+.input-form input{
+	margin: 10px 0px;
+	height: 40px;
+	width: 90%;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+.btn-form {
+	padding-bottom: 15px;
+}
+.btn-form button {
+	margin-top: 25px;
+	width: 90%;
+	padding: 8px 12px;
+}
+.grafick, .grafick-dni {
+	text-align: center;
+	padding: 0;
+}
+.grafick {
+	height: 370px;
+}
+.grafick h5 {
+color: #32485a;
+padding-top: 15px;
+}
+.grafick-dni li{
+	list-style-type: none; /* Прячем исходную нумерацию */
+	height: 30px;
+	background: #32485a;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;	
+}
+.grafick-dni li:nth-child(1)::before { content: 'Пн  '; }
+.grafick-dni li:nth-child(2)::before { content: 'Вт  '; }
+.grafick-dni li:nth-child(3)::before { content: 'Ср  '; }
+.grafick-dni li:nth-child(4)::before { content: 'Чт  '; }
+.grafick-dni li:nth-child(5)::before { content: 'Пт  '; }
+.grafick-dni li:nth-child(6)::before { content: 'Сб  '; }
+.grafick-dni li:nth-child(7)::before { content: 'Вс  '; }
+.grafick-dni li:nth-child(1){margin-top: 10px;}
+.grafick-dni li:nth-child(2){margin-top: 10px;}
+.grafick-dni li:nth-child(3){margin-top: 10px;}
+.grafick-dni li:nth-child(4){margin-top: 10px;}
+.grafick-dni li:nth-child(5){margin-top: 10px;}
+.grafick-dni li:nth-child(6){margin-top: 10px;}
+.grafick-dni li:nth-child(7){margin-top: 10px;}
+.adress-cont {
+	height: 370px;
+	background: #32485a;
+	text-align: center;
+}
+.adress-cont h5{
+	color: #eae6e6;
+	padding-top: 15px;
+	margin-bottom: 8px;
+}
+.adress-cont p {
+	margin: 0px 0px 20px 0px;
+	padding: 4px 0px;
+	color: #383b3c;
+	font-size: 14px;
+	width: 95%;
+	background: #fff;
+	display: inline-block;
+	border-radius: 5px;
+
+}
+
+/* Конец Секции Контакты*/
 
 /*Footer*/
 footer {
 	width: 100%;
 	height: 350px;
 	background: #383b3c;
-}
-.map {
-	margin-top: 25px;
 }
 .addres_footer {
 	color: #fff;
