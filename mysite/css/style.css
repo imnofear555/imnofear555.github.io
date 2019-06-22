@@ -1,0 +1,573 @@
+@font-face {
+    font-family: Myriad Pro Light; /* Имя шрифта */
+    src: url(../fonts/Myriad Pro Light.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Ubuntu Bold;
+    src: url(../fonts/Ubuntu Bold.ttf);
+   }
+@font-face {
+    font-family: Ubuntu Light;
+    src: url(../fonts/Ubuntu Light.ttf);
+   }
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu.ttf);
+   } 
+body {
+	padding: 0;
+	margin: 0;
+}
+.top_btn {
+	display: block;
+	z-index: -20;
+	opacity: 0;
+	position: fixed;
+	bottom: 5%;
+	right: 2%;
+	width: 30px;
+	height: 30px;
+	background: url(../img/up_arrow.png) center no-repeat;
+	background-size: contain;
+	transition: 0.3s;
+	animation-name: up_top;
+	animation-duration: 1.2s;
+	animation-iteration-count: infinite;
+}
+.active_btn {
+	z-index: 100;
+	opacity: 1;
+}
+/* Секция Main class="Header"*/
+.header {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+.menu-top {
+	position: relative;
+	display: inline-flex;
+	width: 100%;
+	height: 50px;
+	background: rgba(255,255,255, .2);
+    margin: 0px;
+}
+.logosite {
+	display: block;
+	padding: 0;
+	margin: 0;	
+	height: 50px;
+	width: 65px;
+	background: url(../img/logo.png) center no-repeat;
+}
+.menu {
+	display: flex;
+	align-items: center;
+}
+.menu-list {
+	padding: 0;
+	margin: 0;
+}
+.menu-list li {
+	display: inline-block;
+	padding: 0px 29px 0px 0px;
+	margin: 0;
+}
+.menu-list li a {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	text-decoration: none;
+}
+.menu-social {
+	position: relative;
+}
+#tel1 {
+	display: inline-block;
+	width: 30px;
+	height: 50px;
+	background: url(../img/tel.png) center no-repeat;
+	transition: 0.2s;
+}
+#tel1:hover {
+	background: url(../img/tel2.png) center no-repeat;
+}
+
+#vk2 {
+	display: inline-block;
+	width: 30px;
+	height: 50px;
+	background: url(../img/vk.png) center no-repeat;
+	transition: 0.2s;
+}
+#vk2:hover {
+	background: url(../img/vk2.png) center no-repeat;
+}
+
+#ins3 {
+	display: inline-block;
+	width: 30px;
+	height: 50px;
+	background: url(../img/ins.png) center no-repeat;
+	transition: 0.2s;
+}
+#ins3:hover {
+	background: url(../img/ins2.png) center no-repeat;
+}
+.headline {
+	display: flex;
+	height: 300px;
+	justify-content: center;
+	align-items: flex-end;
+}
+.headline-min {
+	display: flex;
+	justify-content: center;
+}
+.header-forms {
+	display: inline-block;
+	position: absolute;
+	top: 350px;
+	width: 100%;
+	height: 50px;
+}
+.header-forms input {
+	position: absolute;
+	top: 5px;
+	width: 265px;
+	height: 40px;
+	padding: 1px 10px;
+	border: none;
+}
+.header-forms input:nth-child(1) {
+	left: 20px;
+}
+.header-forms input:nth-child(2) {
+	left: 284px;
+	border-left: 2px solid #9d999940;
+}
+.header-forms button {
+	position: absolute;
+	top: 5px;
+	right: 21px;
+	width: 190px;
+	height: 40px;
+	border: 0;
+	background: #1abc9c;
+	color: #e0f6f2;
+}
+/* Section class="product_features"*/
+.product_features {
+	border-bottom: 1px solid #dddddd;
+}
+.we_do {
+	margin-top: 100px;
+}
+
+.h5-centr {
+	color: #a5a5a5;
+	text-transform: uppercase;
+	font-size: 15px;
+	margin-top: 55px;
+	width: 100%;
+	text-align: center;
+	letter-spacing: 4px;
+}
+.h2-centr {
+	color: #4c4c4c;
+	font-size: 58px;
+	margin: 0;
+}
+.we_do h5, h2 {
+	display: flex;
+	justify-content: center;
+}
+.features {
+	margin-top: 80px;
+	display: flex;
+}
+.cent_img {
+	display: block;
+	margin: 0 auto;
+}
+.h1-centr {
+	display: flex;
+	justify-content: center;
+	margin: 50px 0px 30px 0px;
+}
+.p-centr {
+	display: flex;
+	text-align: center;
+	margin-bottom: 90px;
+}
+/* Section class="services_we_provide"*/
+.services_we_provide {
+	background: #f7f7f7;
+	padding-bottom: 75px;
+}
+.services_head {
+	margin: 100px 0px;
+}
+.serv1,.serv2 {
+	display: flex;
+}
+.serv2 {
+	margin-top: 30px;
+}
+.kart {
+	width: 340px;
+	height: 250px;
+	background: #fff;
+	box-shadow: 0 0 7px rgba(218,218,218,218.5)
+}
+.h3-centr-servs {
+	text-align: center;
+	font-size: 27px;
+	color: #4c4c4c;
+	margin: 0;
+	padding: 30px 0px 50px 0px;
+}
+.cent_img_serv {
+	display: block;
+	margin: 0 auto;
+}
+/* Section class="portfolio"*/
+.portfolio {
+	padding: 100px 0px 75px 0px;
+}
+.button-list {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 95px 0px 80px 0px;
+}
+.button-list button {
+	background: #1abc9c;
+	padding: 7px 25px;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+}
+.button-list button:hover {
+	background: #4c4c4c;
+}
+.zzz {
+    overflow: hidden;
+}
+.cat1,.cat2,.cat3 {
+	display: flex;
+	justify-content: center;
+}
+.filterDiv {
+	display: inline-flex;
+	justify-content: center;
+    background: url(../img/2.jpg) center no-repeat;
+    background-size: cover;
+    filter: brightness(30%);
+    color: #ffffff;
+    width: 23%;
+    height: 300px;
+    text-align: center;
+    margin: .6%;
+    z-index: -1;
+    
+     /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+    background: url(../img/1.jpg) center no-repeat;
+    filter: brightness(90%);
+    background-size: cover;
+    z-index: 10;
+    transition: 0.5s;
+    perspective: 3500px;
+}
+.show:hover{
+	filter: none;
+	cursor: pointer;
+}
+
+
+/* Style the buttons */
+.buttn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Add a light grey background on mouse-over */
+.buttn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.buttn.active {
+  background-color: #666;
+  color: white;
+}
+.front, .back {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	backface-visibility: hidden;
+	transition: 1s;
+}
+.front {
+	background: red;
+	display: flex;
+	justify-content: center;
+}
+.back {
+	background: blue;
+	transform: rotateY(180deg);
+}
+.front.active {
+	transform: rotateY(180deg);
+}
+.back.active {
+	transform: rotateY(360deg);
+}
+.manual {
+	display: block;
+	position: absolute;
+	bottom: 2%;
+	width: 96%;
+	height: 25%;
+	transition: 0.8s;
+	transform: rotateX(90deg);
+}
+
+/* Section КОнец class="services_we_provide"*/
+
+/* Section class="our_team"*/
+.our_team {
+	padding: 100px 0px 75px 0px;
+}
+.team_kard {
+	width: 100%;
+	height: auto;
+	margin-top: 100px;
+}
+.team_kard img {
+	display: block;
+	height: max-content;
+	margin: 0 auto;
+}
+.team_kard h4 {
+	text-align: center;
+	margin: 15px 0px 0px 0px;
+}
+.team_kard h6 {
+	text-align: center;
+	margin: 15px 0px 0px 0px;
+}
+.social_link {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: 0 auto;
+}
+.social_link a {
+	height: 25px;
+	width: 25px;
+	margin: 25px 0px 0px 0px;
+}
+.social_link a:nth-child(1) {
+	background: url(../img/fc_team.png) center no-repeat;
+}
+.social_link a:nth-child(2) {
+	background: url(../img/tw_team.png) center no-repeat;
+}
+.social_link a:nth-child(3) {
+	background: url(../img/in_team.png) center no-repeat;
+}
+/* Section Конец class="our_team"*/
+
+/* Section new_features*/
+.new_features> .row {
+	margin: 0 !important;
+}
+.new_features {
+	padding: 50px 0px;
+}
+.adaptive {
+	display: inline-flex;
+	width: 100%;
+	height: 500px;
+}
+.adaptive picture {
+	display: block;
+	margin: 0% 0% 0% 15%;
+	width: 100%;
+	height: 100%;
+	background: url(../img/adaptive.png) center no-repeat;
+	background-size: contain;
+}
+.adaptive> picture> img {
+	width: 100%;
+	display: block ;
+}
+.head_feat {
+	color: #4c4c4c;
+	font-size: 33px;
+	text-transform: uppercase;
+	margin: 0px 0px 30px 0px;
+}
+.feat_ops h2{
+	display: inline-block;
+	text-align: left;
+	color: #939598;
+	font-size: 33px;
+	margin: 0;
+}
+.ul_list {
+	display: inline-flex;
+	width: 100%;
+	justify-content: left;
+	margin: 50px 0px 0px;
+}
+.ul_list> ul {
+	list-style: url(../img/style_lest.png);
+	margin: 0px 100px 0px 0px;
+	padding-left: 30px;
+}
+.ul_list> ul> li {
+	font-size: 16px;
+	color: #8d7a7a;
+	padding-left: 5px;
+	line-height: 35px;
+}
+.btn_feat {
+	display: inline-flex;
+	width: 100%;
+	margin: 70px 0px 0px 0px;
+}
+.btn_feat a {
+	display: inline-flex;
+	padding: 15px 30px;
+	border-radius: 5px;
+	text-decoration: none !important;
+	transition: .3s;
+}
+#nw {
+	background-color: #010101;
+	color: #eeeeee;
+	margin-right: 1%;
+}
+#nw:hover {
+	background-color: #bebebe;
+	color: #010101;
+	animation-name: btn_up;
+	animation-duration: 1.2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+}
+#mr {
+	background-color: #fff;
+	color: #939598;
+}
+#mr:hover {
+	background-color: #010101;
+	color: #eeeeee;
+}
+
+/* Section Конец new_features*/
+
+/* Footer*/
+footer {
+	display: inline-flex !important;
+	align-items: center;
+	width: 100%;
+	height: 120px;
+	background: #333333;
+}
+.foot_logo, .foot_name_desing, .social_link_media{
+	display: inline-flex;
+	align-items: center;
+}
+.kontakt {
+	display: inline-flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+}
+.phone_number, .clock_word, .send_mail {
+	display: block;
+	justify-content: center;
+	width: 33%;
+}
+.kontakt img {
+	display: block;
+	margin: 0 auto;
+	height: 35px;
+}
+.kontakt h3 {
+	display: block;
+	font-size: 15px;
+	color: #fffaf0;
+	text-align: center;
+}
+.kontakt a {
+	display: block;
+	text-align: center;
+	text-decoration: none !important;
+	font-size: 12px;
+	color: #1abc9c;
+}
+.clock_word {
+	border-right: 1px solid #505050;
+	border-left: 1px solid #505050;
+}
+.clock_word p {
+	font-size: 12px;
+	text-align: center;
+	margin: 0;
+	color: chocolate;
+}
+.social_link_ul{
+	display: inline-flex;
+	justify-content: space-evenly;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.social_link_ul li {
+	list-style: none;
+}
+.social_link_ul li a{
+	display: block;
+	width: 25px;
+	height: 25px;
+	transition: 0.5s;
+}
+.social_link_ul li a:hover{
+	transform: scale(1.2);
+}
+#fc {
+	background: url(../img/fc.png) no-repeat center;
+}
+#gl {
+	background: url(../img/gl.png) no-repeat center;
+}
+#pr {
+	background: url(../img/pr.png) no-repeat center;
+}
+#pr {
+	background: url(../img/pr.png) no-repeat center;
+}
+#sc {
+	background: url(../img/sc.png) no-repeat center;
+}
+#twt {
+	background: url(../img/twt.png) no-repeat center;
+}
+#mc {
+	background: url(../img/mc.png) no-repeat center;
+}
+#in {
+	background: url(../img/in.png) no-repeat center;
+}
+/* Конец Footer*/

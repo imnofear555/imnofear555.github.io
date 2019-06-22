@@ -1,0 +1,42 @@
+@keyframes up_top {
+	from {
+		transform: translateY(0);
+		animation-timing-function: ease-out;
+	}
+	25% {
+		transform: translateY(-5px);
+		transform: rotateY(0);
+		animation-timing-function: ease-out;
+	}
+	50% {
+		transform: translateY(-10px);
+		transform: rotateY(180deg);
+		animation-timing-function: ease-out;
+	}
+	75% {
+		transform: translateY(-5px);
+		animation-timing-function: ease-out;
+	}
+	to {
+		transform: translateY(0);
+		transform: rotateY(0);
+		animation-timing-function: ease-out;
+	}
+}
+@keyframes btn_up {
+	from {
+		transform: scale3d(1, 1, 1);
+	}
+	25% {
+		transform: scale3d(1.0, 1.1, 1.1);
+	}
+	50% {
+		transform: scale3d(1.2, 1.2 ,1.2);
+	}
+	75% {
+		transform: scale3d(1.1, 1.1, 1.1);
+	}
+	to {
+		transform: scale3d(1, 1, 1);
+	}
+}
